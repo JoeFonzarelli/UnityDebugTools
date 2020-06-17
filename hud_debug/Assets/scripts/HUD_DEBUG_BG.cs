@@ -35,6 +35,6 @@ public class HUD_DEBUG_BG : MonoBehaviour {
 		box_bg.Apply();
 
 		box_style.normal.background = box_bg;
-		GUI.Box(new Rect(0, 0, 1000, HUD_DEBUG._instance.ypos), GUIContent.none, box_style);
+		GUI.Box(new Rect(0, 0, 1000, HUD_DEBUG.instance.ypos), GUIContent.none, box_style);
 	} 
 }

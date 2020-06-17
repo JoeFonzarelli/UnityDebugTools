@@ -7,7 +7,7 @@ public class player_movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0,0, Input.GetAxis("Vertical")*0.3f, Space.Self);
-        transform.Rotate(0, Input.GetAxis("Horizontal"), 0, Space.Self);
+        transform.Translate(0,0, InputManager.instance.GetAxis("Vertical") * 0.1f, Space.Self);
+        transform.Rotate(0, InputManager.instance.GetAxis("Horizontal"), 0, Space.Self);
     }
 }
