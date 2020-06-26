@@ -12,10 +12,3 @@ Just drag the prefab in any scene and it's ready to use. We can see the built in
 We also have a hud print tool that allows us to print messages on screen from any part of our code, offering a visual solution similar to the
 prints used in Unreal Engine.
 
-##Getting Started
-
-
-
-
-The funcionalities it uses out of the box are very simple, since it has been 
-created as a template for a quick and highly customizable debugger for any game. 
